@@ -10,7 +10,7 @@ export class ColorBlock {
       fragmentShader: fragmentShader,
       side: THREE.DoubleSide
     });
-    const geometry = new THREE.PlaneGeometry(1, 1);
+    const geometry = new THREE.PlaneGeometry(10, 10);
     const backgroundMesh = new THREE.Mesh(geometry, backgroundMaterial);
     scene.add(backgroundMesh);
   }
